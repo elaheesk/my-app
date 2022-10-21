@@ -1,0 +1,39 @@
+.App {
+	padding: 20px 10px;
+}
+.company-logo {
+	width: 40px;
+	height: 30px;
+}
+
+@media only screen and (min-width: 600px) {
+	.App {
+		padding: 35px 40px 35px 40px;
+	}
+
+	.company-logo {
+		width: 55px;
+		height: 40px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.App {
+		padding: 50px 45px 0px 45px;
+		margin-top: 30px;
+	}
+
+	.company-logo {
+		width: 70px;
+		height: 50px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	.App {
+		padding: 50px 60px 0px 60px;
+	}
+	.company-logo {
+		width: 90px;
+		height: 60px;
+	}
+}
